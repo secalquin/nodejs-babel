@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/secalquin/nodejs-babel#readme",
   "dependencies": {
+    "core-js": "^3.20.2",
     "express": "^4.17.2",
     "morgan": "^1.10.0"
   },

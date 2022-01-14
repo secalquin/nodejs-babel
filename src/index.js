@@ -11,6 +11,10 @@ const InitialValue = {
 };
 
 app.get("/", (_req, res) => {
+  const p =
+    "The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?";
+  console.log(p.replaceAll("dog", "monkey"));
+
   res.json({ ...InitialValue, msg: "Este es un ejemplo con babel" });
 });
 
